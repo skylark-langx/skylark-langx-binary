@@ -1,5 +1,6 @@
 define([
-	"./binary"
+	"./binary",
+	"./buffer"
 ],function(binary){
 	return binary;
 });
