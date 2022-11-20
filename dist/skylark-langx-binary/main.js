@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./binary","./buffer"],function(n){return n});
+define(["./binary","./arraylike-to-string","./buffer","./string-to-arraylike","./string-to-binary","./transform"],function(r){return r});
 //# sourceMappingURL=sourcemaps/main.js.map
