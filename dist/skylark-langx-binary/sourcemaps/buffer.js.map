@@ -1,1 +1,1 @@
-{"version":3,"sources":["buffer.js"],"names":["define","Memory"],"mappings":";;;;;;;AAAAA,QACE,YACA,SAASC,GACT,OAAOA","file":"../buffer.js","sourcesContent":["define([\r\n  \"./memory\"\r\n],function(Memory){\r\n  return Memory;\r\n});"]}
+{"version":3,"sources":["buffer.js"],"names":["define","Memory"],"mappings":";;;;;;;AAAAA,OAAO,CACL,YACA,SAASC,GACT,OAAOA,CACT,CAAC","file":"../buffer.js","sourcesContent":["define([\r\n  \"./memory\"\r\n],function(Memory){\r\n  return Memory;\r\n});"]}

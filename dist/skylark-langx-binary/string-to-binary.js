@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["./binary","./string-to-arraylike"],function(n,r){var t={uint8array:"undefined"!=typeof Uint8Array};return n.string2binary=function(n){var a=null;return a=t.uint8array?new Uint8Array(n.length):new Array(n.length),r(n,a)}});
+define(["./binary","./string-to-arraylike"],function(n,i){var t="undefined"!=typeof Uint8Array;return n.string2binary=function(n){var r=null,r=new(t?Uint8Array:Array)(n.length);return i(n,r)}});
 //# sourceMappingURL=sourcemaps/string-to-binary.js.map

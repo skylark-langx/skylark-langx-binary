@@ -29,7 +29,7 @@ define([
         applyCanBeUsed: {
             uint8array: function () {
                 try {
-                    return support.uint8array && String.fromCharCode.apply(null, new Uint8Array(1)).length === 1;
+                    return  String.fromCharCode.apply(null, new Uint8Array(1)).length === 1;
                 } catch (e) {
                     return false;
                 }
@@ -37,7 +37,7 @@ define([
             nodebuffer: function () {
                 try {
                 ///    return support.nodebuffer && String.fromCharCode.apply(null, nodejsUtils.allocBuffer(1)).length === 1;
-                    return support.nodebuffer && String.fromCharCode.apply(null, Buffer.alloc(1)).length === 1;
+                    return  String.fromCharCode.apply(null, Buffer.alloc(1)).length === 1;
                 } catch (e) {
                     return false;
                 }
