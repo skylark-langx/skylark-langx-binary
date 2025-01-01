@@ -304,7 +304,8 @@ define([
   }
 
   Memory.isMemory = Memory.isBuffer = function isMemory (b) {
-    return b != null && b._isBuffer === true
+    return b != null && b._isMemory === true  &&
+    b !== Memory.prototype // so Memory.isMemory(Memory.prototype) will be false
   }
 
   Memory.compare = function compare (a, b) {
